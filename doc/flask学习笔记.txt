@@ -1,0 +1,25 @@
+﻿1.db.create_all() 根据模型生成数据库
+
+2.迁移数据库步骤
+  from flask.ext.migrate import Migrate, MigrateCommand
+  migrate = Migrate(app, db)
+  manager.add_command('db', MigrateCommand)
+
+
+python manage.py db init 初始化迁移仓库
+python manage.py db migrate -m "initial migration"
+python manage.py db upgrade 更新数据
+python manage.py db downgrade 撤销数据更新
+对第一次迁移来说，其作用和调用 db.create_all() 方法一样。
+
+pip freeze >requirements.txt 导出所有依赖
+
+pip install -r requirements.txt 安装所有依赖
+
+User.query.filter_by(user='fake_name').update({'password':'test'})
+
+celery worker -A local.celery -l INFO
+celery beat -A local.celery -l info
+celery worker -c 2 -A local.celery -l debug -P gevent
+celery beat -A local.celery -l info --max-interval=1
+

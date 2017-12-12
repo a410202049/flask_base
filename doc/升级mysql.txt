@@ -1,0 +1,3 @@
+mysql Éý¼¶ºó mysql_upgrade -uroot -p 
+
+service mysqld restart ÖØÆômysql

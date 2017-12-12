@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>电信合伙人</title>
+	<meta name='keywords' content='校园安心付,学校,手机,一卡通'>
+	<!-- viewport标签 -->
+	<meta name = 'viewport' content='width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0'>
+	<!-- 禁止将数字变为电话号码 -->
+	<meta name= 'format-detection' content='telephone=no'>
+	<link rel="stylesheet" href="../js/layer_mobile/need/layer.css">
+	<link rel="stylesheet" href="../style/common.css">
+
+</head>
+<body>
+	<div id="header-fixed">
+		<i class="arrow-icon arrow-left-header">&lsaquo;</i>
+		<p>领取红包</p>
+	</div>
+	<div id="mian">
+		<form action="">
+			<div class="input-pannel">
+				<label for="" class="label-width">
+					<span class="color-light-red vertical-middle">*</span>
+					<span class="color-light-black font-12 vertical-middle">激活手机号</span>
+				</label>
+				
+				<input type="text" class="vertical-middle">
+			</div>
+			<div class="margin-top-10 clearfix">
+				<div class="input-pannel display-in-bl float-left">
+					<label for="">
+						<span class="color-light-red">*</span>
+					</label>
+					<input type="text" class="vertical-middle" placeholder="请输入收到的验证码">
+				</div>
+				
+				<button type="button" class="btn-verifyCode color-light-red bg-fff padding-10 float-right">
+					<p class="sendCode">发送验证码</p>
+					<p class="countDown"><span>60</span>s</p>
+				</button>
+				
+			</div>
+			
+		</form>
+		<div class="margin-top-10">
+			<button class="btn color-fff bg-middle-red" onclick="stepGoon()">查询可领红包</button>
+		</div>
+		
+	</div>
+	
+
+
+
+
+	
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/layer_mobile/layer.js"></script>
+	<script src="../controller/common.js"></script>
+	<script>
+		function stepGoon(){
+			location.href = "inquire-for-red-packets-one.html";
+		}
+		$('.btn-verifyCode').on('click',function(){
+			var count = 60;
+			// var $sendCode = btn-verifyCode
+			var $sendCode = $(this).find('.sendCode');
+			var $countDown = $(this).find('.countDown');
+			var $countTime = $countDown.find('span');
+			var _this = $(this);
+			$countDown.css('display','block');
+			$sendCode.css('display','none');
+			_this.prop('disabled',true);
+			var timer = setInterval(function(){
+				if(count < 1){
+					clearInterval(timer);
+					$countDown.css('display','none');
+					$sendCode.css('display','block');
+					_this.prop('disabled',false);
+					$countTime.text(60);
+				}else{
+					count--;
+					$countTime.text(count);
+				}
+			},1000)
+		})
+	</script>
+
+</body>
+</html>

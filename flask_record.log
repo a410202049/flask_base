@@ -1,0 +1,150 @@
+[2017-12-12 17:19:50,326]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2017-12-12 17:19:51,559]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2017-12-12 17:19:51,575]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2017-12-12 17:19:51,581]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-12 17:19:52,714]-[__init__.py]-[before_request]-[line 18]-[INFO]-
+[method]: GET 
+[headers]:
+ [('Cookie', 'remember_token=2|39f75be50acfee79d847e4304681e15672e01e7aa39b634b1c14f44e579c3840f3b777ff863a1ff1f6cf150ce01779d91c1c49aa9c1026d0234b59daa68725d5; session=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiMiJ9.DREvhw.OoUHFjl_WW0OGUaetxnh1SAzXfI'), ('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'), ('Connection', 'keep-alive'), ('Host', '127.0.0.1:5000'), ('Upgrade-Insecure-Requests', '1'), ('Cache-Control', 'max-age=0'), ('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Language', 'zh-CN,zh;q=0.8'), ('Accept-Encoding', 'gzip, deflate, sdch, br')]
+[args]:{}
+
+[2017-12-12 17:19:52,716]-[__init__.py]-[after_request]-[line 22]-[INFO]-
+[response] :
+ {"data":"uidis2222222222222222222222","message":"\u83b7\u53d6\u6210\u529f","result":0}
+
+[2017-12-12 17:19:52,736]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:19:52] "GET /api/v1.1.0/getUserInfo/2222222222222222222222 HTTP/1.1" 200 -
+[2017-12-12 17:20:04,966]-[__init__.py]-[before_request]-[line 18]-[INFO]-
+[method]: GET 
+[headers]:
+ [('Cookie', 'remember_token=2|39f75be50acfee79d847e4304681e15672e01e7aa39b634b1c14f44e579c3840f3b777ff863a1ff1f6cf150ce01779d91c1c49aa9c1026d0234b59daa68725d5; session=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiMiJ9.DREvhw.OoUHFjl_WW0OGUaetxnh1SAzXfI'), ('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'), ('Connection', 'keep-alive'), ('Host', '127.0.0.1:5000'), ('Upgrade-Insecure-Requests', '1'), ('Cache-Control', 'max-age=0'), ('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Language', 'zh-CN,zh;q=0.8'), ('Accept-Encoding', 'gzip, deflate, sdch, br')]
+[args]:{}
+
+[2017-12-12 17:20:04,967]-[__init__.py]-[after_request]-[line 22]-[INFO]-
+[response] :
+ {"data":"uidis2222222222222222222222","message":"\u83b7\u53d6\u6210\u529f","result":0}
+
+[2017-12-12 17:20:04,967]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:20:04] "GET /api/v1.1.0/getUserInfo/2222222222222222222222 HTTP/1.1" 200 -
+[2017-12-12 17:20:05,165]-[__init__.py]-[before_request]-[line 18]-[INFO]-
+[method]: GET 
+[headers]:
+ [('Cookie', 'remember_token=2|39f75be50acfee79d847e4304681e15672e01e7aa39b634b1c14f44e579c3840f3b777ff863a1ff1f6cf150ce01779d91c1c49aa9c1026d0234b59daa68725d5; session=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiMiJ9.DREvhw.OoUHFjl_WW0OGUaetxnh1SAzXfI'), ('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'), ('Connection', 'keep-alive'), ('Host', '127.0.0.1:5000'), ('Upgrade-Insecure-Requests', '1'), ('Cache-Control', 'max-age=0'), ('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Language', 'zh-CN,zh;q=0.8'), ('Accept-Encoding', 'gzip, deflate, sdch, br')]
+[args]:{}
+
+[2017-12-12 17:20:05,168]-[__init__.py]-[after_request]-[line 22]-[INFO]-
+[response] :
+ {"data":"uidis2222222222222222222222","message":"\u83b7\u53d6\u6210\u529f","result":0}
+
+[2017-12-12 17:20:05,171]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:20:05] "GET /api/v1.1.0/getUserInfo/2222222222222222222222 HTTP/1.1" 200 -
+[2017-12-12 17:20:05,323]-[__init__.py]-[before_request]-[line 18]-[INFO]-
+[method]: GET 
+[headers]:
+ [('Cookie', 'remember_token=2|39f75be50acfee79d847e4304681e15672e01e7aa39b634b1c14f44e579c3840f3b777ff863a1ff1f6cf150ce01779d91c1c49aa9c1026d0234b59daa68725d5; session=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiMiJ9.DREvhw.OoUHFjl_WW0OGUaetxnh1SAzXfI'), ('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'), ('Connection', 'keep-alive'), ('Host', '127.0.0.1:5000'), ('Upgrade-Insecure-Requests', '1'), ('Cache-Control', 'max-age=0'), ('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Language', 'zh-CN,zh;q=0.8'), ('Accept-Encoding', 'gzip, deflate, sdch, br')]
+[args]:{}
+
+[2017-12-12 17:20:05,325]-[__init__.py]-[after_request]-[line 22]-[INFO]-
+[response] :
+ {"data":"uidis2222222222222222222222","message":"\u83b7\u53d6\u6210\u529f","result":0}
+
+[2017-12-12 17:20:05,325]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:20:05] "GET /api/v1.1.0/getUserInfo/2222222222222222222222 HTTP/1.1" 200 -
+[2017-12-12 17:20:05,503]-[__init__.py]-[before_request]-[line 18]-[INFO]-
+[method]: GET 
+[headers]:
+ [('Cookie', 'remember_token=2|39f75be50acfee79d847e4304681e15672e01e7aa39b634b1c14f44e579c3840f3b777ff863a1ff1f6cf150ce01779d91c1c49aa9c1026d0234b59daa68725d5; session=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiMiJ9.DREvhw.OoUHFjl_WW0OGUaetxnh1SAzXfI'), ('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'), ('Connection', 'keep-alive'), ('Host', '127.0.0.1:5000'), ('Upgrade-Insecure-Requests', '1'), ('Cache-Control', 'max-age=0'), ('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Language', 'zh-CN,zh;q=0.8'), ('Accept-Encoding', 'gzip, deflate, sdch, br')]
+[args]:{}
+
+[2017-12-12 17:20:05,503]-[__init__.py]-[after_request]-[line 22]-[INFO]-
+[response] :
+ {"data":"uidis2222222222222222222222","message":"\u83b7\u53d6\u6210\u529f","result":0}
+
+[2017-12-12 17:20:05,505]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:20:05] "GET /api/v1.1.0/getUserInfo/2222222222222222222222 HTTP/1.1" 200 -
+[2017-12-12 17:20:05,707]-[__init__.py]-[before_request]-[line 18]-[INFO]-
+[method]: GET 
+[headers]:
+ [('Cookie', 'remember_token=2|39f75be50acfee79d847e4304681e15672e01e7aa39b634b1c14f44e579c3840f3b777ff863a1ff1f6cf150ce01779d91c1c49aa9c1026d0234b59daa68725d5; session=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiMiJ9.DREvhw.OoUHFjl_WW0OGUaetxnh1SAzXfI'), ('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'), ('Connection', 'keep-alive'), ('Host', '127.0.0.1:5000'), ('Upgrade-Insecure-Requests', '1'), ('Cache-Control', 'max-age=0'), ('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Language', 'zh-CN,zh;q=0.8'), ('Accept-Encoding', 'gzip, deflate, sdch, br')]
+[args]:{}
+
+[2017-12-12 17:20:05,709]-[__init__.py]-[after_request]-[line 22]-[INFO]-
+[response] :
+ {"data":"uidis2222222222222222222222","message":"\u83b7\u53d6\u6210\u529f","result":0}
+
+[2017-12-12 17:20:05,710]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:20:05] "GET /api/v1.1.0/getUserInfo/2222222222222222222222 HTTP/1.1" 200 -
+[2017-12-12 17:20:05,855]-[__init__.py]-[before_request]-[line 18]-[INFO]-
+[method]: GET 
+[headers]:
+ [('Cookie', 'remember_token=2|39f75be50acfee79d847e4304681e15672e01e7aa39b634b1c14f44e579c3840f3b777ff863a1ff1f6cf150ce01779d91c1c49aa9c1026d0234b59daa68725d5; session=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiMiJ9.DREvhw.OoUHFjl_WW0OGUaetxnh1SAzXfI'), ('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'), ('Connection', 'keep-alive'), ('Host', '127.0.0.1:5000'), ('Upgrade-Insecure-Requests', '1'), ('Cache-Control', 'max-age=0'), ('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Language', 'zh-CN,zh;q=0.8'), ('Accept-Encoding', 'gzip, deflate, sdch, br')]
+[args]:{}
+
+[2017-12-12 17:20:05,857]-[__init__.py]-[after_request]-[line 22]-[INFO]-
+[response] :
+ {"data":"uidis2222222222222222222222","message":"\u83b7\u53d6\u6210\u529f","result":0}
+
+[2017-12-12 17:20:05,858]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:20:05] "GET /api/v1.1.0/getUserInfo/2222222222222222222222 HTTP/1.1" 200 -
+[2017-12-12 17:20:06,023]-[__init__.py]-[before_request]-[line 18]-[INFO]-
+[method]: GET 
+[headers]:
+ [('Cookie', 'remember_token=2|39f75be50acfee79d847e4304681e15672e01e7aa39b634b1c14f44e579c3840f3b777ff863a1ff1f6cf150ce01779d91c1c49aa9c1026d0234b59daa68725d5; session=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiMiJ9.DREvhw.OoUHFjl_WW0OGUaetxnh1SAzXfI'), ('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'), ('Connection', 'keep-alive'), ('Host', '127.0.0.1:5000'), ('Upgrade-Insecure-Requests', '1'), ('Cache-Control', 'max-age=0'), ('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'), ('Accept-Language', 'zh-CN,zh;q=0.8'), ('Accept-Encoding', 'gzip, deflate, sdch, br')]
+[args]:{}
+
+[2017-12-12 17:20:06,026]-[__init__.py]-[after_request]-[line 22]-[INFO]-
+[response] :
+ {"data":"uidis2222222222222222222222","message":"\u83b7\u53d6\u6210\u529f","result":0}
+
+[2017-12-12 17:20:06,028]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:20:06] "GET /api/v1.1.0/getUserInfo/2222222222222222222222 HTTP/1.1" 200 -
+[2017-12-12 17:20:06,180]-[__init__.py]-[after_request]-[line 22]-[INFO]-
+[response] :
+ {"data":"uidis2222222222222222222222","message":"\u83b7\u53d6\u6210\u529f","result":0}
+
+[2017-12-12 17:20:06,181]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:20:06] "GET /api/v1.1.0/getUserInfo/2222222222222222222222 HTTP/1.1" 200 -
+[2017-12-12 17:20:07,105]-[__init__.py]-[after_request]-[line 22]-[INFO]-
+[response] :
+ {"data":"uidis2222222222222222222222","message":"\u83b7\u53d6\u6210\u529f","result":0}
+
+[2017-12-12 17:21:16,266]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2017-12-12 17:21:17,614]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2017-12-12 17:21:17,630]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2017-12-12 17:21:17,635]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-12 17:21:20,170]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2017-12-12 17:21:21,385]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2017-12-12 17:21:21,385]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2017-12-12 17:21:21,385]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-12 17:21:46,171]-[_internal.py]-[_log]-[line 87]-[INFO]- * Detected change in 'D:\\workspace\\flask_base\\config.py', reloading
+[2017-12-12 17:31:26,407]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2017-12-12 17:31:27,723]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2017-12-12 17:31:27,723]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2017-12-12 17:31:27,737]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-12 17:31:29,573]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:31:29] "GET /admin/ HTTP/1.1" 200 -
+[2017-12-12 17:31:31,801]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:31:31] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:31:32,351]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:31:32] "GET /static/admin/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2017-12-12 17:31:34,855]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:31:34] "GET /admin/user-group-manage?page=1 HTTP/1.1" 200 -
+[2017-12-12 17:31:35,730]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:31:35] "GET /admin/user-group-manage?page=1 HTTP/1.1" 200 -
+[2017-12-12 17:31:38,303]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:31:38] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:31:41,213]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:31:41] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:32:01,930]-[_internal.py]-[_log]-[line 87]-[INFO]- * Detected change in 'D:\\workspace\\flask_base\\config.py', reloading
+[2017-12-12 17:32:01,966]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2017-12-12 17:32:03,325]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2017-12-12 17:32:03,329]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2017-12-12 17:32:03,338]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-12 17:32:03,963]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:32:03] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:32:17,328]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:32:17] "GET /admin/user-group-manage?page=2 HTTP/1.1" 200 -
+[2017-12-12 17:32:17,371]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:32:17] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:32:18,543]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:32:18] "GET /admin/user-group-manage?page=2 HTTP/1.1" 200 -
+[2017-12-12 17:32:19,851]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:32:19] "GET /admin/user-group-manage?page=1 HTTP/1.1" 200 -
+[2017-12-12 17:32:20,982]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:32:20] "GET /admin/user-group-manage?page=2 HTTP/1.1" 200 -
+[2017-12-12 17:33:13,841]-[_internal.py]-[_log]-[line 87]-[INFO]- * Detected change in 'D:\\workspace\\flask_base\\app\\controller\\admin\\view.py', reloading
+[2017-12-12 17:33:13,871]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2017-12-12 17:33:15,315]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2017-12-12 17:33:15,318]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2017-12-12 17:33:15,325]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-12 17:33:15,832]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:15] "GET /admin/user-group-manage?page=2 HTTP/1.1" 200 -
+[2017-12-12 17:33:17,826]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:17] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:33:18,887]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:18] "GET /admin/user-manage?page=2 HTTP/1.1" 200 -
+[2017-12-12 17:33:19,727]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:19] "GET /admin/user-manage?page=1 HTTP/1.1" 200 -
+[2017-12-12 17:33:25,700]-[_internal.py]-[_log]-[line 87]-[INFO]- * Detected change in 'D:\\workspace\\flask_base\\config.py', reloading
+[2017-12-12 17:33:25,736]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2017-12-12 17:33:27,107]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2017-12-12 17:33:27,107]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2017-12-12 17:33:27,107]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-12 17:33:27,585]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:27] "GET /admin/user-manage?page=1 HTTP/1.1" 200 -
+[2017-12-12 17:33:37,842]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:37] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:33:39,269]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:39] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:33:40,739]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:40] "GET /admin/user-manage HTTP/1.1" 200 -

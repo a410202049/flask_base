@@ -1,0 +1,43 @@
+version: '2'
+services:
+  nginx:
+    image: ymt-merch-manage-nginx
+    restart: always
+    hostname: sh01.ymt.axinfu
+    ports:
+      - 11080:80/tcp
+    environment:
+      - TZ=Asia/Shanghai
+    mem_limit: 209715200
+    links:
+      - ymt-merch-manage:service01
+
+  ymt-merch-manage:
+    image: 'ymt-merch-manage'
+    restart: always
+    environment:
+      - SERVER_ID=develop01
+      - SERVICE_ID=ymt-merch-manage
+    command: uwsgi --processes=1 -M --gevent=100 --http-socket :80 -w devel:app
+    ports:
+      - '10080/tcp'
+    volumes:
+      - '/var/log/ymt-merch-manage:/var/log/ymt-merch-manage/'
+      - './share:/share'
+    mem_limit: 192m
+
+  ymt-merch-manage-celery-beat:
+    image: 'ymt-merch-manage'
+    restart: always
+    environment:
+      - SERVER_ID=develop01
+      - SERVICE_ID=ymt-merch-manage-celery-beat
+    command: celery beat -A devel.celery -l info
+
+  ymt-merch-manage-celery-work:
+    image: 'ymt-merch-manage'
+    restart: always
+    environment:
+      - SERVER_ID=develop01
+      - SERVICE_ID=ymt-merch-manage-celery-work
+    command: celery worker -A devel.celery -l INFO -P gevent
