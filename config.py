@@ -20,6 +20,7 @@ class Config:
     ALLOWED_EXTENSIONS = ['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif']
     VERSION = '1.0.1'
     DEBUG = True
+    IS_LOCALHOST = True
 
     #邮件配置
     MAIL_SERVER = 'xxxxxxx'

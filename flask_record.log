@@ -148,3 +148,371 @@
 [2017-12-12 17:33:37,842]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:37] "GET /admin/user-manage HTTP/1.1" 200 -
 [2017-12-12 17:33:39,269]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:39] "GET /admin/user-group-manage HTTP/1.1" 200 -
 [2017-12-12 17:33:40,739]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:33:40] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:42:04,187]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:04] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:42:05,520]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:05] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:42:06,000]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/morris/morris.css HTTP/1.1" 200 -
+[2017-12-12 17:42:06,005]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-12-12 17:42:06,012]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/css/core.css HTTP/1.1" 200 -
+[2017-12-12 17:42:06,016]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/css/components.css HTTP/1.1" 200 -
+[2017-12-12 17:42:06,020]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/css/icons.css HTTP/1.1" 200 -
+[2017-12-12 17:42:06,026]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/css/pages.css HTTP/1.1" 200 -
+[2017-12-12 17:42:06,030]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/css/responsive.css HTTP/1.1" 200 -
+[2017-12-12 17:42:06,036]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/layui/css/layui.css HTTP/1.1" 200 -
+[2017-12-12 17:42:06,039]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/css/common.css HTTP/1.1" 200 -
+[2017-12-12 17:42:06,043]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/modernizr.min.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,051]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/jquery.min.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,062]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/bootstrap.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,072]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/detect.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,081]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/fastclick.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,085]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/jquery.slimscroll.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,089]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/jquery.blockUI.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,094]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/waves.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,098]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/fonts/ionicons.ttf?v=1.5.0 HTTP/1.1" 200 -
+[2017-12-12 17:42:06,104]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/fonts/Simple-Line-Icons.ttf?-i3a2kk HTTP/1.1" 200 -
+[2017-12-12 17:42:06,108]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/fonts/themify.woff?-fvbane HTTP/1.1" 200 -
+[2017-12-12 17:42:06,112]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/fonts/Material-Design-Iconic-Font.woff?v=1.0.1 HTTP/1.1" 200 -
+[2017-12-12 17:42:06,118]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[2017-12-12 17:42:06,125]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2017-12-12 17:42:06,128]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/images/anp.png HTTP/1.1" 200 -
+[2017-12-12 17:42:06,132]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/images/users/avatar-1.jpg HTTP/1.1" 200 -
+[2017-12-12 17:42:06,138]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/wow.min.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,141]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/jquery.nicescroll.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,148]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/jquery.scrollTo.min.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,154]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/peity/jquery.peity.min.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,164]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/waypoints/lib/jquery.waypoints.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,171]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,178]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/raphael/raphael-min.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,184]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/jquery-knob/jquery.knob.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,190]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/layui/layui.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,197]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/jquery.core.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,201]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/jquery.app.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,206]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/js/common.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,217]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/layui/lay/modules/layer.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,239]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/layui/css/modules/layer/default/layer.css?v=3.0.3 HTTP/1.1" 200 -
+[2017-12-12 17:42:06,243]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/layui/lay/modules/laydate.js HTTP/1.1" 200 -
+[2017-12-12 17:42:06,253]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /static/admin/plugins/layui/css/modules/laydate/default/laydate.css?v=5.0.5 HTTP/1.1" 200 -
+[2017-12-12 17:42:06,275]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:06] "GET /admin/assets/images/favicon_1.ico HTTP/1.1" 404 -
+[2017-12-12 17:42:42,775]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:42] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:42:50,032]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2017-12-12 17:42:51,357]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2017-12-12 17:42:51,359]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2017-12-12 17:42:51,365]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-12 17:42:51,709]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:51] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:42:52,752]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:42:52] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:43:40,107]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:43:40] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:43:41,288]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:43:41] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2017-12-12 17:43:41,746]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:43:41] "GET /static/admin/css/jquery.treegrid.css HTTP/1.1" 200 -
+[2017-12-12 17:43:41,752]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:43:41] "GET /static/admin/js/jquery.treegrid.js HTTP/1.1" 200 -
+[2017-12-12 17:43:41,756]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:43:41] "GET /static/admin/js/jquery.treegrid.bootstrap3.js HTTP/1.1" 200 -
+[2017-12-12 17:43:44,052]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:43:44] "GET /admin/index HTTP/1.1" 200 -
+[2017-12-12 17:43:45,625]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:43:45] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:43:47,358]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:43:47] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:45:11,845]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:45:11] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:45:16,647]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:45:16] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2017-12-12 17:45:17,565]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:45:17] "GET /admin/index HTTP/1.1" 200 -
+[2017-12-12 17:46:07,542]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:07] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2017-12-12 17:46:09,200]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:09] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:10,711]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:10] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:12,582]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:12] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2017-12-12 17:46:13,548]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:13] "GET /admin/index HTTP/1.1" 200 -
+[2017-12-12 17:46:14,398]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:14] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2017-12-12 17:46:16,177]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:16] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:17,773]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:17] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:19,808]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:19] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:21,388]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:21] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:23,000]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:23] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:24,532]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:24] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:26,217]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:26] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:27,042]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:27] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2017-12-12 17:46:27,829]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:27] "GET /admin/index HTTP/1.1" 200 -
+[2017-12-12 17:46:28,877]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:28] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2017-12-12 17:46:30,622]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:30] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:32,079]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:32] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:33,773]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:33] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:34,634]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:34] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2017-12-12 17:46:35,371]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:35] "GET /admin/index HTTP/1.1" 200 -
+[2017-12-12 17:46:36,250]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:36] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2017-12-12 17:46:37,927]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:37] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:39,374]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:39] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:48,081]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:48] "GET /admin/user-manage HTTP/1.1" 200 -
+[2017-12-12 17:46:49,717]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:46:49] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2017-12-12 17:47:02,605]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:47:02] "GET /static/admin/plugins/layui/css/modules/layer/default/loading-0.gif HTTP/1.1" 200 -
+[2017-12-12 17:47:02,628]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:47:02] "POST /admin/get-rule-list HTTP/1.1" 200 -
+[2017-12-12 17:47:02,638]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:47:02] "GET /static/admin/plugins/layui/css/modules/layer/default/icon.png HTTP/1.1" 200 -
+[2017-12-12 17:47:06,892]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:47:06] "POST /admin/get-group-info HTTP/1.1" 200 -
+[2017-12-12 17:47:09,253]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [12/Dec/2017 17:47:09] "POST /admin/get-rule-list HTTP/1.1" 200 -
+[2018-01-03 09:42:50,940]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2018-01-03 09:42:52,769]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2018-01-03 09:42:52,779]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2018-01-03 09:42:52,796]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-01-03 09:42:54,538]-[views.py]-[index]-[line 6]-[DEBUG]-xxx
+[2018-01-03 09:42:54,605]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:42:54] "GET / HTTP/1.1" 200 -
+[2018-01-03 09:42:54,683]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:42:54] "GET /favicon.ico HTTP/1.1" 404 -
+[2018-01-03 09:42:58,209]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:42:58] "GET /admin HTTP/1.1" 301 -
+[2018-01-03 09:42:58,216]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:42:58] "GET /admin/ HTTP/1.1" 302 -
+[2018-01-03 09:42:58,221]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:42:58] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 302 -
+[2018-01-03 09:42:58,227]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:42:58] "GET /None HTTP/1.1" 404 -
+[2018-01-03 09:42:58,407]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:42:58] "GET /static/404/404.css HTTP/1.1" 200 -
+[2018-01-03 09:42:58,411]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:42:58] "GET /static/404/notfound.gif HTTP/1.1" 200 -
+[2018-01-03 09:43:02,174]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:43:02] "GET /admin/ HTTP/1.1" 302 -
+[2018-01-03 09:43:02,180]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:43:02] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 302 -
+[2018-01-03 09:43:02,186]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:43:02] "GET /None HTTP/1.1" 404 -
+[2018-01-03 09:43:49,002]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2018-01-03 09:43:50,788]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2018-01-03 09:43:50,796]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2018-01-03 09:43:50,806]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-01-03 09:43:56,441]-[views.py]-[index]-[line 6]-[DEBUG]-xxx
+[2018-01-03 09:43:56,480]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:43:56] "GET / HTTP/1.1" 200 -
+[2018-01-03 09:43:59,490]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:43:59] "GET /admin/ HTTP/1.1" 302 -
+[2018-01-03 09:43:59,497]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:43:59] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 302 -
+[2018-01-03 09:43:59,509]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:43:59] "GET /None HTTP/1.1" 404 -
+[2018-01-03 09:44:02,118]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:02] "GET /admin/ HTTP/1.1" 302 -
+[2018-01-03 09:44:02,122]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:02] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 302 -
+[2018-01-03 09:44:04,107]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:04] "GET /admin/ HTTP/1.1" 302 -
+[2018-01-03 09:44:04,112]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:04] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 302 -
+[2018-01-03 09:44:04,118]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:04] "GET /None HTTP/1.1" 404 -
+[2018-01-03 09:44:39,134]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2018-01-03 09:44:40,982]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2018-01-03 09:44:40,992]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2018-01-03 09:44:41,003]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-01-03 09:44:45,786]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:45] "GET /admin/ HTTP/1.1" 302 -
+[2018-01-03 09:44:45,792]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:45] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 302 -
+[2018-01-03 09:44:45,808]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:45] "GET /None HTTP/1.1" 404 -
+[2018-01-03 09:44:52,467]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:52] "GET /admin/ HTTP/1.1" 302 -
+[2018-01-03 09:44:52,474]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:52] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 302 -
+[2018-01-03 09:44:52,480]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:44:52] "GET /None HTTP/1.1" 404 -
+[2018-01-03 09:46:10,431]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2018-01-03 09:46:12,273]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2018-01-03 09:46:12,282]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2018-01-03 09:46:12,290]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-01-03 09:46:13,305]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:46:13] "GET /admin/ HTTP/1.1" 302 -
+[2018-01-03 09:46:32,859]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:46:32] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 302 -
+[2018-01-03 09:46:32,877]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:46:32] "GET /None HTTP/1.1" 404 -
+[2018-01-03 09:47:10,190]-[_internal.py]-[_log]-[line 87]-[INFO]- * Detected change in 'D:\\workspace\\flask_base\\config.py', reloading
+[2018-01-03 09:47:10,230]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2018-01-03 09:47:12,130]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2018-01-03 09:47:12,140]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2018-01-03 09:47:12,148]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-01-03 09:47:16,631]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:16] "GET /admin/ HTTP/1.1" 302 -
+[2018-01-03 09:47:22,019]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:22] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 200 -
+[2018-01-03 09:47:22,026]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:22] "GET /admin/ HTTP/1.1" 302 -
+[2018-01-03 09:47:22,881]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:22] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 200 -
+[2018-01-03 09:47:23,065]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:23] "GET /static/admin/plugins/morris/morris.css HTTP/1.1" 200 -
+[2018-01-03 09:47:23,078]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:23] "GET /static/admin/css/bootstrap.min.css HTTP/1.1" 200 -
+[2018-01-03 09:47:23,263]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:23] "GET /static/admin/css/core.css HTTP/1.1" 200 -
+[2018-01-03 09:47:23,551]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:23] "GET /static/admin/css/components.css HTTP/1.1" 200 -
+[2018-01-03 09:47:23,749]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:23] "GET /static/admin/css/icons.css HTTP/1.1" 200 -
+[2018-01-03 09:47:23,950]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:23] "GET /static/admin/css/pages.css HTTP/1.1" 200 -
+[2018-01-03 09:47:23,957]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:23] "GET /static/admin/css/responsive.css HTTP/1.1" 200 -
+[2018-01-03 09:47:23,963]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:23] "GET /static/admin/css/style.min.css HTTP/1.1" 200 -
+[2018-01-03 09:47:23,967]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:23] "GET /static/admin/js/modernizr.min.js HTTP/1.1" 200 -
+[2018-01-03 09:47:23,986]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:23] "GET /static/admin/js/jquery.min.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,007]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/bootstrap.min.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,013]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/detect.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,017]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/fastclick.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,026]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/jquery.slimscroll.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,029]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/jquery.blockUI.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,036]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/wow.min.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,040]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/jquery.nicescroll.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,046]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/plugins/waypoints/lib/jquery.waypoints.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,052]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,059]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/plugins/raphael/raphael-min.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,065]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/plugins/jquery-knob/jquery.knob.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,071]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/jquery.core.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,075]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/jquery.app.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,079]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/metisMenu/jquery.metisMenu.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,086]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/js/contabs.min.js HTTP/1.1" 200 -
+[2018-01-03 09:47:24,105]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /static/admin/images/agsquare.png HTTP/1.1" 200 -
+[2018-01-03 09:47:24,209]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:24] "GET /admin/assets/images/favicon_1.ico HTTP/1.1" 404 -
+[2018-01-03 09:47:28,805]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:28] "GET /static/admin/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[2018-01-03 09:47:33,492]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "POST /admin/login?next=%2Fadmin%2F HTTP/1.1" 302 -
+[2018-01-03 09:47:33,582]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /admin/ HTTP/1.1" 200 -
+[2018-01-03 09:47:33,602]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/plugins/layui/css/layui.css HTTP/1.1" 200 -
+[2018-01-03 09:47:33,608]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/css/common.css HTTP/1.1" 200 -
+[2018-01-03 09:47:33,611]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/js/bootstrap.js HTTP/1.1" 200 -
+[2018-01-03 09:47:33,621]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/js/waves.js HTTP/1.1" 200 -
+[2018-01-03 09:47:33,631]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/js/jquery.scrollTo.min.js HTTP/1.1" 200 -
+[2018-01-03 09:47:33,638]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/plugins/peity/jquery.peity.min.js HTTP/1.1" 200 -
+[2018-01-03 09:47:33,644]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/plugins/layui/layui.js HTTP/1.1" 200 -
+[2018-01-03 09:47:33,651]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/js/common.js HTTP/1.1" 200 -
+[2018-01-03 09:47:33,658]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/images/anp.png HTTP/1.1" 200 -
+[2018-01-03 09:47:33,663]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/images/users/avatar-1.jpg HTTP/1.1" 200 -
+[2018-01-03 09:47:33,667]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/fonts/ionicons.ttf?v=1.5.0 HTTP/1.1" 200 -
+[2018-01-03 09:47:33,674]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/fonts/Simple-Line-Icons.ttf?-i3a2kk HTTP/1.1" 200 -
+[2018-01-03 09:47:33,680]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/fonts/themify.woff?-fvbane HTTP/1.1" 200 -
+[2018-01-03 09:47:33,684]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/fonts/Material-Design-Iconic-Font.woff?v=1.0.1 HTTP/1.1" 200 -
+[2018-01-03 09:47:33,769]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/plugins/layui/lay/modules/layer.js HTTP/1.1" 200 -
+[2018-01-03 09:47:33,802]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/plugins/layui/css/modules/layer/default/layer.css?v=3.0.3 HTTP/1.1" 200 -
+[2018-01-03 09:47:33,808]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/plugins/layui/lay/modules/laydate.js HTTP/1.1" 200 -
+[2018-01-03 09:47:33,819]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:33] "GET /static/admin/plugins/layui/css/modules/laydate/default/laydate.css?v=5.0.5 HTTP/1.1" 200 -
+[2018-01-03 09:47:36,892]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:36] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 09:47:36,917]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:36] "GET /static/admin/css/jquery.treegrid.css HTTP/1.1" 200 -
+[2018-01-03 09:47:36,921]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:36] "GET /static/admin/js/jquery.treegrid.js HTTP/1.1" 200 -
+[2018-01-03 09:47:36,930]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:36] "GET /static/admin/js/jquery.treegrid.bootstrap3.js HTTP/1.1" 200 -
+[2018-01-03 09:47:36,969]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:36] "GET /static/admin/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2018-01-03 09:47:38,744]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:38] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 09:47:40,637]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:40] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 09:47:42,438]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:42] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 09:47:43,901]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:43] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 09:47:46,658]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:46] "GET /admin/index HTTP/1.1" 200 -
+[2018-01-03 09:47:47,676]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:47] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 09:47:58,882]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:47:58] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 09:48:00,042]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:00] "GET /admin/index HTTP/1.1" 200 -
+[2018-01-03 09:48:01,003]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:01] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 09:48:02,862]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:02] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 09:48:04,563]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:04] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 09:48:06,502]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:06] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 09:48:08,043]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:08] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 09:48:12,036]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:12] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 09:48:13,667]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:13] "GET /admin/index HTTP/1.1" 200 -
+[2018-01-03 09:48:14,677]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:14] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 09:48:16,168]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:16] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 09:48:17,707]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:48:17] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 09:49:06,970]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 09:49:06] "GET /admin/index HTTP/1.1" 200 -
+[2018-01-03 13:57:38,615]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2018-01-03 13:57:40,532]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2018-01-03 13:57:40,542]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2018-01-03 13:57:40,553]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-01-03 13:57:51,329]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:51] "GET /admin/ HTTP/1.1" 200 -
+[2018-01-03 13:57:51,576]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:51] "GET /static/admin/images/anp.png HTTP/1.1" 200 -
+[2018-01-03 13:57:51,582]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:51] "GET /static/admin/images/users/avatar-1.jpg HTTP/1.1" 200 -
+[2018-01-03 13:57:51,588]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:51] "GET /static/admin/fonts/ionicons.ttf?v=1.5.0 HTTP/1.1" 200 -
+[2018-01-03 13:57:51,594]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:51] "GET /static/admin/fonts/Simple-Line-Icons.ttf?-i3a2kk HTTP/1.1" 200 -
+[2018-01-03 13:57:51,601]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:51] "GET /static/admin/fonts/themify.woff?-fvbane HTTP/1.1" 200 -
+[2018-01-03 13:57:51,605]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:51] "GET /static/admin/fonts/Material-Design-Iconic-Font.woff?v=1.0.1 HTTP/1.1" 200 -
+[2018-01-03 13:57:51,611]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:51] "GET /static/admin/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[2018-01-03 13:57:52,990]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:52] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 13:57:53,061]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:53] "GET /static/admin/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2018-01-03 13:57:54,589]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:54] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 13:57:56,177]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:56] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 13:57:57,569]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:57] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 13:57:59,016]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:57:59] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 13:58:00,539]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:00] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 13:58:03,742]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:03] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 13:58:10,951]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:10] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 13:58:11,283]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:11] "GET /static/admin/js/jquery.min.map HTTP/1.1" 404 -
+[2018-01-03 13:58:12,740]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:12] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 13:58:12,980]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:12] "GET /static/admin/js/jquery.min.map HTTP/1.1" 404 -
+[2018-01-03 13:58:14,510]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:14] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 13:58:14,736]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:14] "GET /static/admin/js/jquery.min.map HTTP/1.1" 404 -
+[2018-01-03 13:58:16,591]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:16] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 13:58:16,815]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:16] "GET /static/admin/js/jquery.min.map HTTP/1.1" 404 -
+[2018-01-03 13:58:30,180]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:30] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 13:58:31,345]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 13:58:31] "GET /admin/index HTTP/1.1" 200 -
+[2018-01-03 14:08:30,773]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:08:30] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 14:08:32,871]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:08:32] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 14:08:34,812]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:08:34] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 14:08:36,032]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:08:36] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 14:08:36,940]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:08:36] "GET /admin/index HTTP/1.1" 200 -
+[2018-01-03 14:08:38,003]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:08:38] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 14:08:39,375]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:08:39] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 14:08:40,852]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:08:40] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 14:23:11,493]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:23:11] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 14:23:11,740]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:23:11] "GET /static/admin/js/jquery.min.map HTTP/1.1" 404 -
+[2018-01-03 14:46:46,276]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2018-01-03 14:46:48,213]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2018-01-03 14:46:48,223]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2018-01-03 14:46:48,233]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-01-03 14:54:24,469]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:54:24] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 14:54:28,746]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 14:54:28] "GET /admin/user-manage HTTP/1.1" 200 -
+[2018-01-03 15:04:28,463]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:04:28] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 15:04:49,717]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:04:49] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 15:04:51,621]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:04:51] "GET /admin/user-group-manage HTTP/1.1" 200 -
+[2018-01-03 15:04:55,588]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:04:55] "GET /static/admin/plugins/layui/css/modules/layer/default/loading-0.gif HTTP/1.1" 200 -
+[2018-01-03 15:04:55,604]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:04:55] "POST /admin/get-group-info HTTP/1.1" 200 -
+[2018-01-03 15:05:00,737]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:05:00] "GET /static/admin/plugins/layui/css/modules/layer/default/icon.png HTTP/1.1" 200 -
+[2018-01-03 15:05:08,960]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:05:08] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 15:07:56,693]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:07:56] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 15:10:51,062]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "POST /admin/menu-add HTTP/1.1" 200 -
+[2018-01-03 15:10:51,125]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-03 15:10:51,155]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/plugins/morris/morris.css HTTP/1.1" 304 -
+[2018-01-03 15:10:51,161]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/css/bootstrap.min.css HTTP/1.1" 304 -
+[2018-01-03 15:10:51,165]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/css/core.css HTTP/1.1" 304 -
+[2018-01-03 15:10:51,171]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/css/components.css HTTP/1.1" 304 -
+[2018-01-03 15:10:51,174]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/css/icons.css HTTP/1.1" 304 -
+[2018-01-03 15:10:51,181]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/css/pages.css HTTP/1.1" 304 -
+[2018-01-03 15:10:51,187]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/css/responsive.css HTTP/1.1" 304 -
+[2018-01-03 15:10:51,193]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/plugins/layui/css/layui.css HTTP/1.1" 304 -
+[2018-01-03 15:10:51,200]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/css/common.css HTTP/1.1" 304 -
+[2018-01-03 15:10:51,207]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/css/jquery.treegrid.css HTTP/1.1" 304 -
+[2018-01-03 15:10:51,213]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/modernizr.min.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,219]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/jquery.min.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,226]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/bootstrap.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,233]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/detect.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,240]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/fastclick.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,249]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/jquery.slimscroll.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,253]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/jquery.blockUI.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,257]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/waves.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,263]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/wow.min.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,269]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/jquery.nicescroll.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,273]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/jquery.scrollTo.min.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,282]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/plugins/peity/jquery.peity.min.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,289]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/plugins/waypoints/lib/jquery.waypoints.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,295]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+[2018-01-03 15:10:51,302]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,312]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/images/anp.png HTTP/1.1" 304 -
+[2018-01-03 15:10:51,321]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/images/users/avatar-1.jpg HTTP/1.1" 304 -
+[2018-01-03 15:10:51,326]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/plugins/raphael/raphael-min.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,332]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/plugins/jquery-knob/jquery.knob.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,338]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/plugins/layui/layui.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,342]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/jquery.core.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,348]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/jquery.app.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,355]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/common.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,361]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/jquery.treegrid.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,365]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/js/jquery.treegrid.bootstrap3.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,466]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/plugins/layui/lay/modules/layer.js HTTP/1.1" 304 -
+[2018-01-03 15:10:51,513]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:51] "GET /static/admin/plugins/layui/css/modules/layer/default/layer.css?v=3.0.3 HTTP/1.1" 304 -
+[2018-01-03 15:10:55,487]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [03/Jan/2018 15:10:55] "GET /admin/customers HTTP/1.1" 404 -
+[2018-01-04 09:28:02,145]-[_internal.py]-[_log]-[line 87]-[INFO]- * Restarting with stat
+[2018-01-04 09:28:04,632]-[_internal.py]-[_log]-[line 87]-[WARNING]- * Debugger is active!
+[2018-01-04 09:28:04,644]-[_internal.py]-[_log]-[line 87]-[INFO]- * Debugger PIN: 906-543-416
+[2018-01-04 09:28:04,657]-[_internal.py]-[_log]-[line 87]-[INFO]- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-01-04 09:28:13,466]-[views.py]-[index]-[line 6]-[DEBUG]-xxx
+[2018-01-04 09:28:13,573]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:13] "GET / HTTP/1.1" 200 -
+[2018-01-04 09:28:18,724]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /admin/ HTTP/1.1" 200 -
+[2018-01-04 09:28:18,924]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/plugins/morris/morris.css HTTP/1.1" 304 -
+[2018-01-04 09:28:18,930]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/css/bootstrap.min.css HTTP/1.1" 304 -
+[2018-01-04 09:28:18,936]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/css/core.css HTTP/1.1" 304 -
+[2018-01-04 09:28:18,941]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/css/components.css HTTP/1.1" 304 -
+[2018-01-04 09:28:18,947]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/css/icons.css HTTP/1.1" 304 -
+[2018-01-04 09:28:18,953]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/css/pages.css HTTP/1.1" 304 -
+[2018-01-04 09:28:18,957]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/css/responsive.css HTTP/1.1" 304 -
+[2018-01-04 09:28:18,963]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/plugins/layui/css/layui.css HTTP/1.1" 304 -
+[2018-01-04 09:28:18,967]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/css/common.css HTTP/1.1" 304 -
+[2018-01-04 09:28:18,971]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/js/modernizr.min.js HTTP/1.1" 304 -
+[2018-01-04 09:28:18,976]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/js/jquery.min.js HTTP/1.1" 304 -
+[2018-01-04 09:28:18,987]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/js/bootstrap.js HTTP/1.1" 304 -
+[2018-01-04 09:28:18,996]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:18] "GET /static/admin/js/detect.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,003]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/js/fastclick.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,010]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/js/jquery.slimscroll.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,017]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/js/jquery.blockUI.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,026]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/js/waves.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,032]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/js/wow.min.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,036]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/fonts/ionicons.ttf?v=1.5.0 HTTP/1.1" 200 -
+[2018-01-04 09:28:19,042]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/fonts/Simple-Line-Icons.ttf?-i3a2kk HTTP/1.1" 200 -
+[2018-01-04 09:28:19,046]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/js/jquery.nicescroll.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,052]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/js/jquery.scrollTo.min.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,058]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/fonts/themify.woff?-fvbane HTTP/1.1" 200 -
+[2018-01-04 09:28:19,062]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/fonts/Material-Design-Iconic-Font.woff?v=1.0.1 HTTP/1.1" 200 -
+[2018-01-04 09:28:19,069]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[2018-01-04 09:28:19,072]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/plugins/peity/jquery.peity.min.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,078]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/plugins/waypoints/lib/jquery.waypoints.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,084]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,101]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/plugins/raphael/raphael-min.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,119]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/plugins/jquery-knob/jquery.knob.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,124]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/plugins/layui/layui.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,128]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/js/jquery.core.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,132]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/js/jquery.app.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,137]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/js/common.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,141]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/images/anp.png HTTP/1.1" 304 -
+[2018-01-04 09:28:19,145]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/images/users/avatar-1.jpg HTTP/1.1" 304 -
+[2018-01-04 09:28:19,221]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/plugins/layui/lay/modules/layer.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,246]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/plugins/layui/css/modules/layer/default/layer.css?v=3.0.3 HTTP/1.1" 304 -
+[2018-01-04 09:28:19,253]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/plugins/layui/lay/modules/laydate.js HTTP/1.1" 304 -
+[2018-01-04 09:28:19,266]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:19] "GET /static/admin/plugins/layui/css/modules/laydate/default/laydate.css?v=5.0.5 HTTP/1.1" 304 -
+[2018-01-04 09:28:21,005]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:21] "GET /admin/menu-auth HTTP/1.1" 200 -
+[2018-01-04 09:28:21,028]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:21] "GET /static/admin/css/jquery.treegrid.css HTTP/1.1" 304 -
+[2018-01-04 09:28:21,032]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:21] "GET /static/admin/js/jquery.treegrid.js HTTP/1.1" 304 -
+[2018-01-04 09:28:21,042]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:21] "GET /static/admin/js/jquery.treegrid.bootstrap3.js HTTP/1.1" 304 -
+[2018-01-04 09:28:21,084]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:28:21] "GET /static/admin/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+[2018-01-04 09:29:02,536]-[_internal.py]-[_log]-[line 87]-[INFO]-127.0.0.1 - - [04/Jan/2018 09:29:02] "GET /admin/index HTTP/1.1" 200 -
