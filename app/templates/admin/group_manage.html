@@ -93,7 +93,7 @@
                         {% from "macros.html" import pagination_widget %}
                         {% if data.pagination %}
                             <div class="pagination">
-                                {{ pagination_widget(data.pagination, 'admin.user_group_manage',data.fragment) }}
+                                {{ pagination_widget(data.pagination, request.endpoint,data.fragment) }}
                             </div>
                         {% endif %}
                     </div>
