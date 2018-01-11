@@ -1,8 +1,8 @@
 FROM python:2.7
 
 # ENV
-ARG PROJ_FOLDER_NAME=ymt-merch-manage
-ARG PROJ_NAME=ymt-merch-manage
+ARG PROJ_FOLDER_NAME=flask_base
+ARG PROJ_NAME=flask_base
 ENV SERVER_ID container
 ENV SERVICE_ID $PROJ_NAME
 
@@ -21,7 +21,7 @@ RUN pip install uwsgi
 COPY . /src
 
 # create logs dir
-RUN mkdir -p /var/log/axinfu/ymt-merch-appserver/
+RUN mkdir -p /var/log/flask-base/
 
 WORKDIR /src
 
