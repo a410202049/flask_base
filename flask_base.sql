@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50636
 File Encoding         : 65001
 
-Date: 2017-12-12 17:36:35
+Date: 2018-01-11 14:17:30
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -30,7 +30,7 @@ CREATE TABLE `t_menu_auth` (
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=81 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=82 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of t_menu_auth
@@ -89,11 +89,14 @@ CREATE TABLE `t_operation_log` (
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of t_operation_log
 -- ----------------------------
+INSERT INTO `t_operation_log` VALUES ('1', 'admin', 'login', '用户登陆', '127.0.0.1', '{\'username\': [u\'admin\'], \'remember_me\': [u\'y\'], \'password\': [u\'admin\'], \'submit\': [u\'\\u767b\\u9646\'], \'next\': [u\'/admin/\']}', 'current_user:admin', '2018-01-03 09:47:33', '2018-01-03 09:47:33');
+INSERT INTO `t_operation_log` VALUES ('2', 'admin', 'add_menu', '添加菜单', '127.0.0.1', '{\'sort\': [u\'1\'], \'menu_name\': [u\'\\u7528\\u6237\\u5217\\u8868\'], \'parent_id\': [u\'0\'], \'type\': [u\'0\'], \'method\': [u\'admin/customers\'], \'icon\': [u\' fa fa-hand-pointer-o\']}', 'method:admin/customers', '2018-01-03 15:10:51', '2018-01-03 15:10:51');
+INSERT INTO `t_operation_log` VALUES ('3', 'admin', 'del_menu', '删除菜单', '127.0.0.1', '{\'menu_id\': [u\'81\']}', 'name:用户列表', '2018-01-11 10:11:55', '2018-01-11 10:11:55');
 
 -- ----------------------------
 -- Table structure for `t_user`
