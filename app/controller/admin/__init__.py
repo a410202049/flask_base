@@ -12,13 +12,34 @@ from app.controller.admin import auth,view
 @admin.context_processor
 def menus():
     user = current_user
+    def check_auth(path):
+        if user.is_active == True:
+            if user.group_id == 1:
+                return True
+            all_menus = MenuAuth.query.order_by('id').all()
+            rules_str = user.group.rules
+            rules = []
+            if rules_str:
+                rules = json.loads(rules_str)
+            all_menu_list = []
+            auth_menu_list = []
+            for menu in all_menus:
+                all_menu_list.append(menu.method)
+                for rule_id in rules:
+                    if int(menu.id) == rule_id:
+                        auth_menu_list.append(menu.method)
+
+            if path in all_menu_list and path not in auth_menu_list:
+                return False
+            return True
+
     #获取登陆后菜单
     if user.is_active == True:
         #设置admin蓝图下全局变量
         auth= Auth(user)
         menus= auth.auth_menus()
-        return {'menus': menus}
-    return {}
+        return {'menus': menus,'check_auth':check_auth}
+    return {'check_auth':check_auth}
 
 #权限验证
 @admin.before_request
