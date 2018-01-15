@@ -1,43 +1,36 @@
 version: '2'
 services:
   nginx:
-    image: ymt-merch-manage-nginx
+    image: flask-base-nginx
     restart: always
-    hostname: sh01.ymt.axinfu
+    hostname: dev.kerrygao
     ports:
-      - 11080:80/tcp
+      - 80:80/tcp
     environment:
       - TZ=Asia/Shanghai
     mem_limit: 209715200
     links:
-      - ymt-merch-manage:service01
-
-  ymt-merch-manage:
-    image: 'ymt-merch-manage'
+      - flask_base:service01 
+  
+  flask_base:
+    image: 'flask_base'
     restart: always
-    environment:
-      - SERVER_ID=develop01
-      - SERVICE_ID=ymt-merch-manage
-    command: uwsgi --processes=1 -M --gevent=100 --http-socket :80 -w devel:app
-    ports:
-      - '10080/tcp'
+    command: uwsgi --processes=1 -M --gevent=100 --http-socket :80 -w local:app
     volumes:
-      - '/var/log/ymt-merch-manage:/var/log/ymt-merch-manage/'
+      - '/var/log/flask_base:/var/log/flask_base/'
       - './share:/share'
     mem_limit: 192m
-
-  ymt-merch-manage-celery-beat:
-    image: 'ymt-merch-manage'
-    restart: always
+    links:
+      - mysql
+    
+  mysql:
+    image: mysql:5.6
+    container_name: flask_base_mysql
+    ports:
+      - "3306:3306"
+    volumes:
+      - ~/opt/data/mysql:/var/lib/mysql
     environment:
-      - SERVER_ID=develop01
-      - SERVICE_ID=ymt-merch-manage-celery-beat
-    command: celery beat -A devel.celery -l info
+      MYSQL_ROOT_PASSWORD: 123456
 
-  ymt-merch-manage-celery-work:
-    image: 'ymt-merch-manage'
-    restart: always
-    environment:
-      - SERVER_ID=develop01
-      - SERVICE_ID=ymt-merch-manage-celery-work
-    command: celery worker -A devel.celery -l INFO -P gevent
+     

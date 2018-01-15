@@ -1,1 +1,1 @@
-docker build -t ymt-merch-manage-nginx ./nginx && docker build -t ymt-merch-manage .
+docker build -t flask-base-nginx ./nginx && docker build -t flask_base .

@@ -41,7 +41,7 @@ class Config:
 
 
 class LocalConfig(Config):
-    SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1/flask_base?charset=utf8"
+    SQLALCHEMY_DATABASE_URI = "mysql://root:123456@flask_base_mysql/flask_base?charset=utf8"
 
     #CELERY
     CELERY_BROKER_URL = 'redis://localhost:6379/1'

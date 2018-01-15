@@ -54,3 +54,14 @@ SELINUX=enforcing
 
 pip install -t . PyMySQL 安装到当前目录
 invk test_func
+
+
+
+docker-compose up -d
+docker build -t flask-base-nginx ./nginx && docker build -t flask_base .
+
+netstat -tlpn
+telnet localhost 3306
+docker-compose up -d --build
+docker exec -it flaskbase_flask_base_1 bash 进入容器
+docker-compose logs -f 查看docker日志

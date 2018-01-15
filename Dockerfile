@@ -26,5 +26,3 @@ RUN mkdir -p /var/log/flask-base/
 WORKDIR /src
 
 EXPOSE 80
-CMD uwsgi --processes=1 -M --gevent=100 --http-socket :80 -w devel:app
-

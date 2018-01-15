@@ -8,3 +8,4 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN rm /etc/nginx/conf.d/default.conf
 COPY ./conf.d /etc/nginx/conf.d
 COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY ./proxy_params.params /etc/nginx/proxy_params.params
