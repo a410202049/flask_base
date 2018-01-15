@@ -1,7 +1,7 @@
 # coding: utf-8
 from flask import Flask,current_app
 from flask_mail import Mail
-from flask_sqlalchemy import SQLAlchemy,get_debug_queries
+from flask_sqlalchemy import SQLAlchemy, get_debug_queries, BaseQuery
 from flask_login import LoginManager
 
 from app.utils.restful_response import CommonResponse, ResultType
