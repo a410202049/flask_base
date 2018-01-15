@@ -18,7 +18,12 @@ reload(sys)
 sys.setdefaultencoding( "utf-8" )
 
 mail = Mail()
-db = SQLAlchemy()
+
+#设置db.session.query 可以使用分页类
+session_options = {}
+session_options['query_cls'] = BaseQuery
+db = SQLAlchemy(session_options=session_options)
+
 login_manager = LoginManager()
 login_manager.session_protection = 'basic'
 login_manager.login_view = 'admin.login'
