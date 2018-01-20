@@ -1,1 +1,0 @@
-docker build -t flask-base-nginx ./nginx && docker build -t flask_base .
