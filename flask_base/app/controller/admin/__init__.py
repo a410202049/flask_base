@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
-from flask import Blueprint, request, json
-
+from flask import Blueprint, request, json ,current_app as app, render_template
+import traceback
 from app.models.models import MenuAuth
 from app.utils.auth import Auth
 from flask_login import current_user
@@ -8,6 +8,24 @@ from app.utils.restful_response import CommonResponse, ResultType
 
 admin = Blueprint('admin', __name__,url_prefix='/admin')
 from app.controller.admin import auth,view
+
+@admin.before_request
+def before_request():
+    method = request.method
+    header = request.headers.to_list()
+    args = {
+        'GET': request.args,
+        'POST': request.form
+    }[request.method]
+    app.logger.info('\n[method]: {} \n'
+                    '[headers]:\n {}\n'
+                    '[args]:{}\n'.format(method,header,args.to_dict()))
+
+@admin.errorhandler(Exception)
+def code_exception_found(e):
+    trace = traceback.format_exc()
+    app.logger.info('\n[Exception] :\n {}\n'.format(trace))
+    return render_template('500.html'), 500
 
 @admin.context_processor
 def menus():
