@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>电信合伙人</title>
+	<meta name='keywords' content='校园安心付,学校,手机,一卡通'>
+	<!-- viewport标签 -->
+	<meta name = 'viewport' content='width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0'>
+	<!-- 禁止将数字变为电话号码 -->
+	<meta name= 'format-detection' content='telephone=no'>
+	<link rel="stylesheet" href="../js/layer_mobile/need/layer.css">
+	<link rel="stylesheet" href="../style/common.css">
+
+</head>
+<body>
+	<div id="header-fixed">
+		<i class="arrow-icon arrow-left-header">&lsaquo;</i>
+		<p>电信套餐办理</p>
+	</div>
+	<div id="mian">
+		<div class="pannel-card-radius">
+			<img src="../assets/banner advertisement@2x.png" alt="" style="width: 100%;">
+		</div>
+		<div class="pannel-card-radius margin-top-10 padding-20 phone-bg" onclick="opencard()">
+			<h4 class="margin-top-10">
+				39元校区不限流量套餐
+				<span class="color-light-red font-12">预冲60送50</span>
+			</h4>
+			<ul class="yellow-pointer margin-top-10">
+				<li>校区流量不限量（全省所有校区）</li>
+				<li>2个G省内流量（不清零）</li>
+				<li>500M国内流量（不清零）</li>
+				<li>200分钟国内通话，全国接听免费</li>
+			</ul>
+		</div>
+		<div class="pannel-card-radius margin-top-10 padding-20 phone-bg">
+			<h4 class="margin-top-10">
+				99元不限流量套餐
+				<span class="color-light-red font-12">预冲150送100</span>
+			</h4>
+			<ul class="yellow-pointer margin-top-10">
+				<li>省内流量不限量</li>
+				<li>3个G国内流量（不清零）</li>
+				<li>300分钟国内通话，全国接听免费</li>
+				<li>200分钟国内通话，全国接听免费</li>
+				<li>免费试用2个月</li>
+			</ul>
+		</div>
+		<div class="list-panel padding-20 margin-top-10" onclick="searcheOne()">
+			<i class="i-img i-img-height vertical-middle" style="height:42px;"><img src="../assets/lookredbag@2x.png" alt=""></i>
+			<div class="display-in-bl vertical-middle">
+				<p>查看可领红包</p>
+				<p class="font-12 color-light-black">激活成功后再次查询领取红包资格</p>
+			</div>
+			<i class="arrow-icon-right"></i>
+		</div>
+	</div>
+	
+	<script type="text/template" id="openCard-template">
+		<div class="open-card-bg">
+			<p class="text-right">
+				<span class="color-light-red display-in-bl text-center" style="width: 48px;" onclick="layer.closeAll();">返回</span>
+			</p>
+			<div class="padding-10 text-left">
+				<div>
+					<h4>
+						39元校区不限流量套餐
+						<span class="color-light-red font-12">预冲60送50</span>
+					</h4>
+					<ul class="yellow-pointer">
+						<li>校区流量不限量（全省所有校区）</li>
+						<li>2个G省内流量（不清零）</li>
+						<li>500M国内流量（不清零）</li>
+						<li>200分钟国内通话，全国接听免费</li>
+					</ul>
+				</div>
+				<div class="margin-top-20">
+					<div>
+						<i class="i-img i-img-width vertical-middle" style="width: 32px;">
+							<img src="../assets/money@2x.png" alt="">
+						</i>
+						<span class="vertical-middle color-111 font-16">成功办理送40元现金+50元话费</span>
+					</div>
+					<div class="margin-top-10">
+						<button class="btn color-fff bg-middle-blue">立即办理</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+
+
+
+	
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/layer_mobile/layer.js"></script>
+	<script src="../controller/common.js"></script>
+	<script>
+		function opencard(){
+			var openCard = $('#openCard-template').html();
+			layer.open({
+		    	content: openCard
+		  	});
+		}
+		function searcheOne(){
+			location.href = "inquire-for-red-packets.html";
+		}
+	</script>
+
+</body>
+</html>

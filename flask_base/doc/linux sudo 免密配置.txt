@@ -1,0 +1,5 @@
+使用 “su –” 命令，进入root用户;
+为sudoers文件添加写入的权限：使用命令   “chmod u+w /etc/sudoers”
+执行visudo 命令，按“i”进入编辑模式后，找到“root ALL=(ALL) ALL ”，在后面添加："dba ALL=(ALL)  NOPASSWD:  ALL"，再按一下“Esc”键退出编辑，输入“wq”（write quit）后，退出sudoers。ss
+输入“chmod u-w /etc/sudoers”将文件的写入属性去掉
+通过“exit”切换回自己的用户，再使用sudo  whoami命令时，如果返回root，就可以使用了

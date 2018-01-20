@@ -1,0 +1,113 @@
+{% extends "wechat/base.html" %}
+{% block head_title %}我的红包{% endblock %}
+{% block mian %}
+    {% if not pack_user %}
+        <!-- 没有红包 -->
+        <div class="pannel-card-radius text-center no-packets padding-20">
+            <i class="i-img i-img-width" style="width: 32%;">
+                <img src="{{ url_for('static',filename='wechat/assets/noredbag@2x.png')}}" alt="">
+            </i>
+            <h4>没有查到可以领的红包</h4>
+            <p class="font-12 color-light-black">若你已激活号卡，请在次月5号后再次查询</p>
+        </div>
+
+    {% else %}
+
+        {% if pack_user.receive_status == 0 %}
+            <!-- 领取红包1 -->
+            <div class="pannel-card-radius text-center redpack-margin-10 padding-20">
+                <i class="i-img i-img-width" style="width: 32%;">
+                    <img src="{{ url_for('static',filename='wechat/assets/haveredbag@2x.png')}}" alt="">
+                </i>
+                <h4>恭喜你，你已获得{{ pack_user.money }}元激活红包</h4>
+                <div class="margin-top-20">
+                    <button class="btn color-fff bg-middle-blue">
+                        <p onclick="grant_redpack('{{ pack_user.card_package }}');">立即领取</p>
+                    </button>
+                </div>
+                <p class="color-light-red font-12">*领取红包后将放入微信零钱</p>
+            </div>
+
+        {% else %}
+            <!-- 已领取 -->
+            <div class="pannel-card-radius text-center redpack-margin-10 padding-20">
+                <p class="color-light-red text-left">已领取</p>
+                <i class="i-img i-img-width" style="width: 32%;">
+                    <img src="{{ url_for('static',filename='wechat/assets/hadredbag@2x.png')}}" alt="">
+                </i>
+                <h4 class="color-deep-black-alpha">恭喜你，你已获得{{ pack_user.money }}元激活红包</h4>
+                <div class="margin-top-20">
+                    <button class="btn color-fff bg-middle-blue-alpha">
+                        <p>立即领取</p>
+                    </button>
+                </div>
+                <p class="color-light-red-alpha font-12">*领取红包后将放入微信零钱</p>
+            </div>
+
+        {% endif %}
+
+
+        {% if pack_user.share_complete_status == 2 %}
+          <!-- 领取红包1 -->
+            <div class="pannel-card-radius text-center redpack-margin-10 padding-20">
+                <i class="i-img i-img-width" style="width: 32%;">
+                    <img src="{{ url_for('static',filename='wechat/assets/haveredbag@2x.png')}}" alt="">
+                </i>
+                <h4>恭喜你，你已获得20元分享红包</h4>
+                <div class="margin-top-20">
+                    <button class="btn color-fff bg-middle-blue">
+                        <p onclick="grant_redpack('REDPACKAGE_SHARE');">立即领取</p>
+                    </button>
+                </div>
+                <p class="color-light-red font-12">*领取红包后将放入微信零钱</p>
+            </div>
+        {% elif pack_user.share_complete_status == 3 %}
+            <!-- 已领取 -->
+            <div class="pannel-card-radius text-center redpack-margin-10 padding-20">
+                <p class="color-light-red text-left">已领取</p>
+                <i class="i-img i-img-width" style="width: 32%;">
+                    <img src="{{ url_for('static',filename='wechat/assets/hadredbag@2x.png')}}" alt="">
+                </i>
+                <h4 class="color-deep-black-alpha">恭喜你，你已获得20元分享红包</h4>
+                <div class="margin-top-20">
+                    <button class="btn color-fff bg-middle-blue-alpha">
+                        <p>立即领取</p>
+                    </button>
+                </div>
+                <p class="color-light-red-alpha font-12">*领取红包后将放入微信零钱</p>
+            </div>
+
+        {% endif %}
+
+    {% endif %}
+
+
+
+{% endblock %}
+
+{% block script %}
+    <script>
+        function grant_redpack(redpack_type){
+            param = {
+                redpack_type:redpack_type
+            };
+            $.post("{{ url_for('api.grant_redpack')}}",param,function(data){
+                if(data.result){
+                     layer.open({
+                        content: data.message
+                        ,skin: 'msg'
+                        ,time: 2 //2秒后自动关闭
+                      });
+                }else{
+                    layer.open({
+                        content: data.message
+                        ,skin: 'msg'
+                        ,time: 2 //2秒后自动关闭
+                    });
+                    location.reload();
+                }
+			});
+        }
+
+    </script>
+{% endblock %}

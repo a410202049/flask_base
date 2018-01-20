@@ -1,0 +1,45 @@
+[program:axinfu-manager-v2]
+command=uwsgi --processes=4 -M --gevent=100 -H /root/virtualenvs/dev -s /tmp/axinfu_manager_v2.sock -w local:app
+process_name=%(program_name)s
+numprocs=1
+directory=/home/kerry/axinfu-manager-v2/
+umask=000                     ; umask for process (default None)
+priority=999                  ; the relative start priority (default 999)
+autostart=true
+autorestart=unexpected
+startsecs=1                   ; number of secs prog must stay running (def. 1)
+startretries=3                ; max # of serial start failures (default 3)
+exitcodes=0,2
+stopsignal=QUIT
+stopwaitsecs=10
+stopasgroup=false             ; send stop signal to the UNIX process group (default false)
+killasgroup=false             ; SIGKILL the UNIX process group (def false)
+user=axinfu
+redirect_stderr=true          ; redirect proc stderr to stdout (default false)
+stdout_logfile=/home/kerry/axinfu-manager-v2/logs/stdout.log
+stdout_logfile_maxbytes=1MB   ; max # logfile bytes b4 rotation (default 50MB)
+stdout_logfile_backups=10     ; # of stdout logfile backups (default 10)
+stdout_capture_maxbytes=1MB   ; number of bytes in 'capturemode' (default 0)
+stdout_events_enabled=false   ; emit events on stdout writes (default false)
+stderr_logfile=/home/kerry/axinfu-manager-v2/logs/stderr.log
+stderr_logfile_maxbytes=1MB   ; max # logfile bytes b4 rotation (default 50MB)
+stderr_logfile_backups=10     ; # of stderr logfile backups (default 10)
+stderr_capture_maxbytes=1MB   ; number of bytes in 'capturemode' (default 0)
+stderr_events_enabled=false   ; emit events on stderr writes (default false)
+
+
+ps aux|grep uwsgi
+
+killall uwsgi
+
+server {
+   listen 80;
+   server_name www.axf.com;
+   location / { try_files $uri @axinfu_manager_v2; }
+   location @axinfu_manager_v2 {
+        include uwsgi_params;
+        uwsgi_pass unix:/tmp/axinfu_manager_v2.sock;
+   }
+}
+
+

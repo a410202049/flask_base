@@ -1,0 +1,4 @@
+pip freeze > requirements.txt 生成本地包依赖
+pip install -r requirements.txt
+
+git submodule update --init --recursive

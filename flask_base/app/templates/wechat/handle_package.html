@@ -1,0 +1,177 @@
+{% extends "wechat/base.html" %}
+{% block style %}
+<style type="text/css">
+    #header-fixed{
+        display: none;
+    }
+    #mian{
+        margin-top: 0;
+    }
+</style>
+{% endblock %}
+{% block head_title %}电信套餐办理{% endblock %}
+{% block mian %}
+		<div class="pannel-card-radius font-line-height-0">
+			<img src="{{ url_for('static',filename='wechat/assets/banner_advertisement@2x.png')}}" alt="" style="width: 100%;">
+		</div>
+		<div class="pannel-card-radius margin-top-10 padding-20 phone-bg" onclick="opencard_39()">
+			<p class="margin-top-10 font-16">
+				39元校区不限流量套餐
+				<span class="color-light-red font-12">预充60送50</span>
+			</p>
+			<ul class="yellow-pointer margin-top-10">
+				<li>校区流量不限量（全省所有校区）</li>
+				<li>2个G省内流量（不清零）</li>
+				<li>500M国内流量（不清零）</li>
+				<li>200分钟国内通话，全国接听免费</li>
+			</ul>
+		</div>
+		<div class="pannel-card-radius margin-top-10 padding-20 phone-bg" onclick="opencard_99()">
+			<p class="margin-top-10 font-16">
+				99元不限流量套餐
+				<span class="color-light-red font-12">预充150送100</span>
+			</p>
+			<ul class="yellow-pointer margin-top-10">
+				<li>省内流量不限量</li>
+				<li>3个G国内流量（不清零）</li>
+				<li>300分钟国内通话，全国接听免费</li>
+				<li>免费使用2个月</li>
+			</ul>
+		</div>
+		<div class="list-panel padding-20 margin-top-10 font-line-height-0" onclick="searcheOne()">
+			<i class="i-img i-img-height vertical-middle" style="height:42px;"><img src="{{ url_for('static',filename='wechat/assets/lookredbag@2x.png')}}" alt=""></i>
+			<div class="display-in-bl vertical-middle" style="margin-left: 10px;">
+				<p class="font-14">查看可领红包</p>
+				<p class="font-12 color-light-black">激活成功后再次查询领取红包资格</p>
+			</div>
+			<i class="arrow-icon-right"></i>
+		</div>
+{% endblock %}
+{% block script %}
+
+    <script type="text/template" id="openCard-template-39">
+		<div style="position: relative;">
+			<div class="open-card-bg">
+				<img src="{{ url_for('static',filename='wechat/assets/bigcardblock@2x.png')}}" alt="">
+			</div>
+			<div class="open-card-content">
+				<p class="text-right" style="height: 8%;position: relative;">
+					<span class="color-light-red display-in-bl verticality" onclick="layer.closeAll();">返回</span>
+				</p>
+				<div class="text-left" style="margin-top: 1.5%;height: 90.5%;">
+					<div class="padding-20 open-card-detail">
+						<p class="font-16">
+							39元校区不限流量套餐
+							<span class="color-light-red font-12">预充60送50</span>
+						</p>
+						<ul class="yellow-pointer margin-top-10">
+                            <li>校区流量不限量（全省所有校区）</li>
+                            <li>2个G省内流量（不清零）</li>
+                            <li>500M国内流量（不清零）</li>
+                            <li>200分钟国内通话，全国接听免费</li>
+						</ul>
+					</div>
+					<div class="open-card-detail" style="position: relative;">
+						<div class="padding-20 verticality" style="width: 100%;left: 50%;">
+							<div class="text-center font-line-height-0">
+								<i class="i-img i-img-width vertical-middle" style="width: 32px;">
+									<img src="{{ url_for('static',filename='wechat/assets/money@2x.png')}}" alt="">
+								</i>
+								<span class="vertical-middle color-111 font-16 margin-left-10">成功办理送40元现金+50元话费</span>
+							</div>
+							<div style="margin-top: 24px">
+								<button class="btn color-fff bg-middle-blue" onclick="open_browser('http://wapsc.189.cn/prestoreCard/index/39%20?param=OX%2F8Uivw6bB78V%2BNikfFavYG%2FErM3QHwzCkAl9vEZ%2FoBWZYBcIZ%2BGwG42%2BwC+uVNiGzu6vlPSWjEwtIbTijYsK%2Fwz5IPFLYZHY9yW1ronhbo%3D&channelID=100259&subChannelID=100253');">
+									<p>立即办理</p>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</script>
+
+
+    <script type="text/template" id="openCard-template-99">
+		<div style="position: relative;">
+			<div class="open-card-bg">
+				<img src="{{ url_for('static',filename='wechat/assets/bigcardblock@2x.png')}}" alt="">
+			</div>
+			<div class="open-card-content">
+				<p class="text-right" style="height: 8%;position: relative;">
+					<span class="color-light-red display-in-bl verticality" onclick="layer.closeAll();">返回</span>
+				</p>
+				<div class="text-left" style="margin-top: 1.5%;height: 90.5%;">
+					<div class="padding-20 open-card-detail">
+						<p class="font-16">
+							99元校区不限流量套餐
+							<span class="color-light-red font-12">预充150送100</span>
+						</p>
+						<ul class="yellow-pointer margin-top-10">
+                            <li>省内流量不限量</li>
+                            <li>3个G全国流量（不清零）</li>
+                            <li>300分钟国内通话，全国接听免费</li>
+                            <li>免费使用2个月</li>
+						</ul>
+					</div>
+					<div class="open-card-detail" style="position: relative;">
+						<div class="padding-20 verticality" style="width: 100%;left: 50%;">
+							<div class="text-center font-line-height-0">
+								<i class="i-img i-img-width vertical-middle" style="width: 32px;">
+									<img src="{{ url_for('static',filename='wechat/assets/money@2x.png')}}" alt="">
+								</i>
+								<span class="vertical-middle color-111 font-16 margin-left-10">成功办理送70元现金+100元话费</span>
+							</div>
+							<div style="margin-top: 24px">
+								<button class="btn color-fff bg-middle-blue" onclick="open_browser('http://wapsc.189.cn/prestoreCard/index/99?param=OX%2F8Uivw6bB78V%2BNikfFaj9myDaXi7FaswBqTfi%2FdX1wGpfw7Qo81CzXg3au+kfwYyR8v6PF7mr7%2FA%2BTxA8Vmpztw9vmmzGcErqIZ986Uo1g%3D&channelID=100259&subChannelID=100253');">
+									<p>立即办理</p>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</script>
+
+    <script>
+    function opencard_39(){
+        var openCard = $('#openCard-template-39').html();
+        layer.open({
+            content: openCard
+        });
+    }
+    function opencard_99(){
+        var openCard = $('#openCard-template-99').html();
+        layer.open({
+            content: openCard
+        });
+    }
+
+    function searcheOne(){
+        location.href = "{{ url_for("api.app_red_pack_page") }}";
+    }
+
+    var version = '';
+    var platform = '';
+
+    function getAppInfo(appInfo) {
+        obj = JSON.parse(appInfo);
+        version = obj.verson;
+        platform = obj.platform;
+    }
+
+    function open_browser(url) {
+        var low_version = platform == 'iOS' ? '3.1.3' : '3.1.8';
+        if(versionfunegt(version,low_version)){
+            axinfuApp.accessUrl(url);
+        }else{
+            location.href = "{{ url_for("api.app_update") }}";
+        }
+    }
+
+
+	</script>
+{% endblock %}

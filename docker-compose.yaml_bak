@@ -1,0 +1,37 @@
+version: '2'
+services:
+  nginx:
+    build: ./build/nginx
+    restart: always
+    hostname: dev.kerrygao
+    ports:
+      - "8081:80"
+    environment:
+      - TZ=Asia/Shanghai
+    mem_limit: 209715200
+    links:
+      - flask_base:service01 
+  
+  flask_base:
+    build: ./flask_base
+    restart: always
+    command: uwsgi --processes=1 -M --gevent=100 --http-socket :80 -w devel:app
+    volumes:
+      - '/var/log/flask_base:/var/log/flask_base/'
+      - './share:/share'
+    mem_limit: 192m
+    links:
+      - flask_mysql
+    
+  flask_mysql:
+    build: ./build/mysql
+    privileged: true
+    container_name: flask_base_mysql
+    ports:
+      - "3307:3306"
+    volumes:
+      - ~/opt/data/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+
+     

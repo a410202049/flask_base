@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>电信合伙人</title>
+	<meta name='keywords' content='校园安心付,学校,手机,一卡通'>
+	<!-- viewport标签 -->
+	<meta name = 'viewport' content='width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0'>
+	<!-- 禁止将数字变为电话号码 -->
+	<meta name= 'format-detection' content='telephone=no'>
+	<link rel="stylesheet" href="../js/layer_mobile/need/layer.css">
+	<link rel="stylesheet" href="../style/common.css">
+
+</head>
+<body>
+	<div id="header-fixed">
+		<i class="arrow-icon arrow-left-header">&lsaquo;</i>
+		<p>领取红包</p>
+	</div>
+	<div id="mian">
+		<!-- 没有红包 -->
+		<div class="pannel-card-radius text-center margin-top-10 no-packets padding-20">
+			<i class="i-img i-img-width" style="width: 32%;">
+				<img src="../assets/noredbag@2x.png" alt="">
+			</i>
+			<h4>没有查到可以领的红包</h4>
+			<p class="font-12 color-light-black">若你已激活好卡，请在次月5号后再次查询</p>
+		</div>
+		<div class="pannel-card-radius margin-top-10 padding-20">
+			<div class="font-12">
+				<p class="posotion-relative">
+					<span class="color-light-black">为什么没有我的红包</span>
+					<i class="i-img i-img-width icon-question-yellow"><img src="../assets/helpicon@2x.png" alt=""></i>
+				</p>
+				<p>
+					我们会在每月15日前溶剂已激活号卡用户的红包金额，并在次月5日后发放红包。如果没有你的红包，请在次月5号再次查询。
+				</p>
+			</div>
+		</div>
+		<!-- 领取红包1 -->
+		<div class="pannel-card-radius text-center margin-top-10 padding-20">
+			<i class="i-img i-img-width" style="width: 32%;">
+				<img src="../assets/haveredbag@2x.png" alt="">
+			</i>
+			<h4>恭喜你，你已获得20元激活红包</h4>
+			<div class="margin-top-20">
+				<button class="btn color-fff bg-middle-blue">立即领取</button>
+			</div>
+			<p class="color-light-red font-12">*领取红包后将放入微信零钱</p>
+		</div>
+		<!-- 已领取 -->
+		<div class="pannel-card-radius text-center margin-top-10 padding-20">
+			<p class="color-light-red text-left">已领取</p>
+			<i class="i-img i-img-width" style="width: 32%;">
+				<img src="../assets/hadredbag@2x.png" alt="">
+			</i>
+			<h4 class="color-deep-black-alpha">恭喜你，你已获得20元激活红包</h4>
+			<div class="margin-top-20">
+				<button class="btn color-fff bg-middle-blue-alpha">立即领取</button>
+			</div>
+			<p class="color-light-red-alpha font-12">*领取红包后将放入微信零钱</p>
+		</div>
+
+
+
+
+		<div class="pannel-card-radius margin-top-10 padding-20" onclick="opencard()">
+			<div class="font-12">
+				<p class="posotion-relative">
+					<span class="color-light-black">领取方式</span>
+					<i class="i-img i-img-width icon-question-yellow"><img src="../assets/helpicon@2x.png" alt=""></i>
+				</p>
+				<ul>
+					<li>1.关注微信公众号”校园微服务</li>
+					<li>2.输入“红包”，获取领款页面</li>
+					<li>3.按提示输入信息，领取成功奖励金将放入微信零钱包</li>
+				</ul>
+			</div>
+		</div>
+		<div class="pannel-card-radius text-center margin-top-10 time-no-packets padding-20">
+			<p>现在分享，且有10个好友点击浏览，可再得20元红包</p>
+			<p class="color-light-red font-12">*好友查看了分享页面才算一次哟！</p>
+			<h1 class="color-light-red margin-top-20">6</h1>
+			<p class="margin-top-10">当前分享人次</p>
+			<div class="margin-top-20">
+				<button class="btn color-fff bg-middle-blue">立即分享</button>
+			</div>
+		</div>
+		<!-- 已领取 -->
+		<div class="pannel-card-radius text-center margin-top-10 padding-20">
+			<p class="color-light-red text-left">已领取</p>
+			<i class="i-img i-img-width" style="width: 32%;">
+				<img src="../assets/hadredbag@2x.png" alt="">
+			</i>
+			<h4>你已经成功领取了20元激活红包</h4>
+		</div>
+		<!-- 激活已领，分享待领取 -->
+		<div class="pannel-card-radius text-center margin-top-10 padding-20">
+			<i class="i-img i-img-width" style="width: 32%;">
+				<img src="../assets/hadredbag@2x.png" alt="">
+			</i>
+			<h4>你已经成功领取了20元激活红包</h4>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		
+	</div>
+	
+	<script type="text/template" id="openCard-template">
+		<div class="open-card-bg">
+			<p class="text-right">
+				<span class="color-light-red display-in-bl text-center" style="width: 48px;" onclick="layer.closeAll();">返回</span>
+			</p>
+			<div class="padding-10 text-left">
+				<div>
+					<h4>
+						39元校区不限流量套餐
+						<span class="color-light-red font-12">预冲60送50</span>
+					</h4>
+					<ul class="yellow-pointer">
+						<li>校区流量不限量（全省所有校区）</li>
+						<li>2个G省内流量（不清零）</li>
+						<li>500M国内流量（不清零）</li>
+						<li>200分钟国内通话，全国接听免费</li>
+					</ul>
+				</div>
+				<div class="margin-top-20">
+					<div>
+						<i class="i-img i-img-width vertical-middle" style="width: 32px;">
+							<img src="../assets/money@2x.png" alt="">
+						</i>
+						<span class="vertical-middle color-111 font-16">成功办理送40元现金+50元话费</span>
+					</div>
+					<div class="margin-top-10">
+						<button class="btn color-fff bg-middle-blue">立即办理</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+
+
+
+	
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/layer_mobile/layer.js"></script>
+	<script src="../controller/common.js"></script>
+	<script>
+	</script>
+
+</body>
+</html>
